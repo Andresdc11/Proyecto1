@@ -1,0 +1,1 @@
+para inicializar git  se usa el comando git init

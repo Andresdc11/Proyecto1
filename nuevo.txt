@@ -1,1 +1,7 @@
 para inicializar git  se usa el comando git init
+git add "file name"
+para commit  git commit -m "mensaje del ajuste"
+git config (muestra la opciones de configuracion)
+$ git config --global user.email "andres.cruzch2@gmail.com para ingresar correo
+
+git add . (siempre se debe dar add y el . es para decir que es de la carpeta actual)

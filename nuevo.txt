@@ -7,4 +7,5 @@ $ git config --global user.email "andres.cruzch2@gmail.com para ingresar correo
 git add . (siempre se debe dar add y el . es para decir que es de la carpeta actual)
 git log "archivo"   muestra los comit 
 git show "file" mustra cambios realizados
-
+ esc + shit zz para salir del comando de error de omitir un mensaje de commit
+git dif #comit reciente #comit antiguo (mistra las diferencias entre las versiones)

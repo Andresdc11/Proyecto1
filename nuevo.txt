@@ -5,10 +5,20 @@ git config (muestra la opciones de configuracion)
 $ git config --global user.email "andres.cruzch2@gmail.com para ingresar correo
 
 git add . (siempre se debe dar add y el . es para decir que es de la carpeta actual
-            y se va a un staying - memoria ram y el archivo queda tracked)
-para commit  git commit -m "mensaje del ajuste" (para que quede en el repositorio)
-git log "archivo"   muestra los comit 
-git show "file" mustra cambios realizados
+y se va a un staying - memoria ram y el archivo queda tracked)
+git commit -m "mensaje del ajuste" (para que quede en el repositorio)
+
+git log "archivo"   muestra los comit git log -- stat (mas detallado)
+
+
+
+git show "file" mustra cambios realizados y el head donde esta
  esc + shit zz para salir del comando de error de omitir un mensaje de commit
 git dif #comit reciente #comit antiguo (mistra las diferencias entre las versiones)
  
+git resert #commit --hard   o   --soft  o --head  (para volver a una version anterior)
+git rm --cached
+git rm --force
+
+git checkout #commit "file" para ver la version de ese numeral" y master para volver a la mas reciente
+(desde la linea 13 estaba trabajando en la linea media)

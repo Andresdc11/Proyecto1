@@ -24,4 +24,5 @@ git checkout #commit "file" para ver la version de ese numeral" y master para vo
 (desde la linea 13 estaba trabajando, midificando para crar conflictos)
 no se estan uniendo los branch
 
+antes de hacer un checkout o merge es importante tener claroq eu ya esta hecho el commit
 

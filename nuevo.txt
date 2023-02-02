@@ -10,6 +10,8 @@ git commit -m "mensaje del ajuste" (para que quede en el repositorio)
 
 git log "archivo"   muestra los comit git log -- stat (mas detallado)
 
+
+
 git show "file" mustra cambios realizados y el head donde esta
  esc + shit zz para salir del comando de error de omitir un mensaje de commit
 git dif #comit reciente #comit antiguo (mistra las diferencias entre las versiones)
@@ -19,4 +21,4 @@ git rm --cached
 git rm --force
 
 git checkout #commit "file" para ver la version de ese numeral" y master para volver a la mas reciente
-
+(desde la linea 13 estaba trabajando en la linea media)

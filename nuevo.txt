@@ -21,4 +21,7 @@ git rm --cached
 git rm --force
 
 git checkout #commit "file" para ver la version de ese numeral" y master para volver a la mas reciente
-(desde la linea 13 estaba trabajando en la linea media)
+(desde la linea 13 estaba trabajando, midificando para crar conflictos)
+no se estan uniendo los branch
+
+

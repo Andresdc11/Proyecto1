@@ -7,6 +7,7 @@ $ git config --global user.email "andres.cruzch2@gmail.com para ingresar correo
 git add . (siempre se debe dar add y el . es para decir que es de la carpeta actual
 y se va a un staying - memoria ram y el archivo queda tracked)
 git commit -m "mensaje del ajuste" (para que quede en el repositorio)
+para eveitar hacer los 2 pasos esta -  git commit -am "mensaje del ajuste"
 
 git log "archivo"   muestra los comit git log -- stat (mas detallado)
 
@@ -23,6 +24,21 @@ git rm --force
 git checkout #commit "file" para ver la version de ese numeral" y master para volver a la mas reciente
 (desde la linea 13 estaba trabajando, midificando para crar conflictos)
 no se estan uniendo los branch
+despues de solucionar problemas y elegir la mejor opcion se debe hace un commit,
+para que desaparesca el master|merging
 
 antes de hacer un checkout o merge es importante tener claroq eu ya esta hecho el commit
+es mejor hacer cambios significativos antes de hacer un commit para no estar moviendose entre ramas
+pero si necesita tener control visual de las ramas re puede usar la parte izq baja de VC
+
+para enlace con gitHub
+git remote add origin https://github.com/Andresdc11/Proyecto1.git
+git remote -v (verificar la conexión)
+
+ANTES DE HACER UN PUSH  es importante hacer un pull si no lo permite:
+hacer un git pull origin master --allow-unrelated-histories
+git push origin master (es el paso a seguir)
+
+
+
 

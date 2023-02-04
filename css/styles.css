@@ -1,5 +1,5 @@
 body{
-    color: blue;
+    color: rgb(21, 197, 45);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -18,4 +18,5 @@ body{
 
 #media{
     color: blueviolet;
+    border: 2px solid #000;
 }

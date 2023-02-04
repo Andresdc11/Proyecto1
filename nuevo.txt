@@ -2,7 +2,7 @@ para inicializar git  se usa el comando git init
 git add "file name"
 
 git config (muestra la opciones de configuracion)
-$ git config --global user.email "andres.cruzch2@gmail.com para ingresar correo
+git config --global user.email "andres.cruzch2@gmail.com para ingresar correo
 
 git add . (siempre se debe dar add y el . es para decir que es de la carpeta actual
 y se va a un staying - memoria ram y el archivo queda tracked)
@@ -10,8 +10,6 @@ git commit -m "mensaje del ajuste" (para que quede en el repositorio)
 para eveitar hacer los 2 pasos esta -  git commit -am "mensaje del ajuste"
 
 git log "archivo"   muestra los comit git log -- stat (mas detallado)
-
-
 
 git show "file" mustra cambios realizados y el head donde esta
  esc + shit zz para salir del comando de error de omitir un mensaje de commit
@@ -38,6 +36,10 @@ git remote -v (verificar la conexión)
 ANTES DE HACER UN PUSH  es importante hacer un pull si no lo permite:
 hacer un git pull origin master --allow-unrelated-histories
 git push origin master (es el paso a seguir)
+
+ssh-keygen -t rsa-b 4096 -C "correodeseado"  para --cap 21 si quiero cambiar a conexión ssh 
+para verificar que esta corriendo eval $(ssh-agent -S)
+
 
 
 

@@ -32,13 +32,28 @@ pero si necesita tener control visual de las ramas re puede usar la parte izq ba
 para enlace con gitHub
 git remote add origin https://github.com/Andresdc11/Proyecto1.git
 git remote -v (verificar la conexión)
+git remote set-url origin "url"
 
 ANTES DE HACER UN PUSH  es importante hacer un pull si no lo permite:
 hacer un git pull origin master --allow-unrelated-histories
 git push origin master (es el paso a seguir)
 
-ssh-keygen -t rsa-b 4096 -C "correodeseado"  para --cap 21 si quiero cambiar a conexión ssh 
+ssh-keygen -t rsa-b 4096 -C "correodeseado"  para --cap 21 y 22 si quiero cambiar a conexión ssh 
 para verificar que esta corriendo eval $(ssh-agent -S)
+
+git log --all --graph --decorate --oneline refleja el arbole de commit
+alias "cualquiernombre" = "git log --all --graph --decorate --oneline"
+para hcer mas rapido la visualizacion ene l futuro 
+git tag -d (nombre a borrar de ls tags)
+git push origin :refs/tags/(nombre a borrar)
+
+git tag -a v0.1 -m "primera version de todo" 736a663 para nombrar las versiones
+git show-ref --tags ver a que commit esta vinculado el tag
+git push origin --tags
+
+
+
+
 
 
 

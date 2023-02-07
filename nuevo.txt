@@ -24,8 +24,6 @@ git branch muestra todas las ramas
 git show-branch      git show-branch --all
 gitk    muestra todo el historial de manera visual
 
-
-
 git checkout #commit "file" para ver la version de ese numeral" y master para volver a la mas reciente
 (desde la linea 13 estaba trabajando, midificando para crar conflictos)
 no se estan uniendo los branch
@@ -90,6 +88,9 @@ git stash  es como un ctr z queda en un estado temporarl igual que se invierte m
 git stash pop  
 se puede poner el estash euna rama con git stash branch (nombre)
 git stash drop para borrar el stash
+
+git clean --dry-run para borrar archivos
+git clean -f borra definitiva pero se preocupa por los archivos
 
 
 

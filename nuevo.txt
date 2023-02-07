@@ -1,7 +1,7 @@
 para inicializar git  se usa el comando git init
 git add "file name"
 
-git config (muestra la opciones de configuracion)
+git config (muestra la opciones de configuracion) -l(datos personales)
 git config --global user.email "andres.cruzch2@gmail.com para ingresar correo
 
 git add . (siempre se debe dar add y el . es para decir que es de la carpeta actual
@@ -19,11 +19,19 @@ git resert #commit --hard   o   --soft  o --head  (para volver a una version ant
 git rm --cached
 git rm --force
 
+git branch(nombre) crea una nueva rama
+git branch muestra todas las ramas
+git show-branch      git show-branch --all
+gitk    muestra todo el historial de manera visual
+
+
+
 git checkout #commit "file" para ver la version de ese numeral" y master para volver a la mas reciente
 (desde la linea 13 estaba trabajando, midificando para crar conflictos)
 no se estan uniendo los branch
 despues de solucionar problemas y elegir la mejor opcion se debe hace un commit,
-para que desaparesca el master|merging
+para que desaparezca el master|merging
+git merge (nombre de la rama) tener en cuenta que se debe estar enla rama master
 
 antes de hacer un checkout o merge es importante tener claroq eu ya esta hecho el commit
 es mejor hacer cambios significativos antes de hacer un commit para no estar moviendose entre ramas
@@ -42,7 +50,7 @@ ssh-keygen -t rsa-b 4096 -C "correodeseado"  para --cap 21 y 22 si quiero cambia
 para verificar que esta corriendo eval $(ssh-agent -S)
 
 git log --all --graph --decorate --oneline refleja el arbole de commit
-alias "cualquiernombre" = "git log --all --graph --decorate --oneline"
+alias "cualquiernombre" = "git log --all --graph --decorate --oneline" matriz alias que use
 para hcer mas rapido la visualizacion ene l futuro 
 git tag -d (nombre a borrar de ls tags)
 git push origin :refs/tags/(nombre a borrar)
@@ -51,8 +59,37 @@ git tag -a v0.1 -m "primera version de todo" 736a663 para nombrar las versiones
 git show-ref --tags ver a que commit esta vinculado el tag
 git push origin --tags
 
+git clone (url) pra traerse un repositorio de internet
 
+para hacer tildes p&aacute;arrafo (&cute;)
+despues de aprovar un pull request se puede eliminar la rama que se creo temporalmente
+solamente lo pueden hacer colaboradores
 
+un fork es para copiar un repositorio a mi github
+crear un pull request es como un commit intermedio 
+git remote add upstream (url) para actualizar el fork desde la consola
+git pull upstream master
+se puede ingresar desde una maquina virtual y colar el repositorio para cel el html en internet
+travis CI o jenkins  para administrar un DB con git 
+
+.gitignore se crea en la base del proyecto donde se crea una lista de los arcnhivos a ignorar
+*.jpg 
+git add .gitignore
+conten delivery network para guardar archivos binarios (laravel proyectos de php)
+
+Markdowm forma de cambiar con codigo el formato del texto (Editor.md)
+
+Pages.gitHub.com  crear un repositorio con nombre de usuario clonar el repositorio y crear un
+archivo vim index.html hacer algo para mostrar y hacer push abrir luego con usuario.github.io
+ir a settings en el nuevo rep y master brach ademas cambiar el nombre del rep usuario.github.io
+
+rebase pegar una rama entera a la rama master (mala practica) 
+git rebse master en el nivel no master
+
+git stash  es como un ctr z queda en un estado temporarl igual que se invierte mintras cambiuamos de rama con 
+git stash pop  
+se puede poner el estash euna rama con git stash branch (nombre)
+git stash drop para borrar el stash
 
 
 
